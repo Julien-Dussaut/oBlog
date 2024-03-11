@@ -19,11 +19,15 @@ if(isset($_GET['id']) && !empty($_GET['id'])) {
 <h1>Articles écrits par <?= $dataAuthorsList[$_GET['id']]->name; ?></h1>
 
 <?php
+if (empty($articlesByAuthor)) {
+    echo "<h2>Cet auteur n'a écrit aucun article.</h2>";
+} else {
+
 //On boucle sur le tableau créé en ligne 5 et rempli en ligne 11
 foreach($articlesByAuthor as $index => $articleToDisplay):
   ?>
 
-//On affiche l'article courant de la boucle avec les mêmes balises html que sur les pages article et category
+// On affiche l'article courant de la boucle avec les mêmes balises html que sur les pages article et category
 <article class="card">
         <div class="card-body">
             <h2 class="card-title"><a href="index.php?page=article&id=<?= $index; ?>"><?= $articleToDisplay->title ?></a></h2>
@@ -38,7 +42,7 @@ foreach($articlesByAuthor as $index => $articleToDisplay):
         </article>
 <?php
     endforeach;
-
+  }
     } else {
 ?>
 

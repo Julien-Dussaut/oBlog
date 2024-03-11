@@ -11,6 +11,13 @@
 
     ?>
     <h1>Articles rangés dans la catégorie <?= $dataCategoriesList[$_GET['id']]->name; ?></h1>
+
+<?php
+if (empty($articlesByCategorie)) {
+  echo "<h2>Cette catégorie est vide.</h2>";
+} else {
+?>
+
 <?php
       foreach($articlesByCategorie as $index => $articleToDisplay):
 ?>
@@ -28,7 +35,9 @@
         </article>
 <?php
       endforeach;
-  } else {
+  } 
+}
+else {
 ?>
     <h1>Aucune catégorie sélectionnées, vous n'auriez pas du arriver là...</h1>
 <?php
