@@ -16,7 +16,7 @@
   ✔ Revenir sur la branche master et fusionner la branche @done(24-03-11 10:12)
 
 ☐ Étape 3
-  ☐ Créer une branche "classes-category-author"
+  ✔ Créer une branche "classes-category-author" @done(24-03-11 10:18)
   ☐ Ajouter nouvelles variables à data.php
   ☐ Créer une classe Category
   ☐ Créer une classe Author

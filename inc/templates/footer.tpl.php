@@ -18,7 +18,7 @@
 <?php
             foreach($dataCategoriesList as $index => $value):
 ?>
-            <li class="list-group-item"><a href="index.php?page=category&id=<?= $index; ?>"><?= $value; ?></a></li>
+            <li class="list-group-item"><a href="index.php?page=category&id=<?= $index; ?>"><?= $value->name; ?></a></li>
 <?php
             endforeach;
 ?>
@@ -32,7 +32,7 @@
 <?php
             foreach($dataAuthorsList as $index => $value):    
 ?>
-            <li class="list-group-item"><a href="index.php?page=author&id=<?= $index; ?>"><?= $value; ?></a></li>
+            <li class="list-group-item"><a href="index.php?page=author&id=<?= $index; ?>"><?= $value->name; ?></a></li>
 <?php
             endforeach;
 ?>
