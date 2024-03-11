@@ -15,18 +15,18 @@
   ✔ Ajouter et commiter @done(24-03-11 10:12)
   ✔ Revenir sur la branche master et fusionner la branche @done(24-03-11 10:12)
 
-☐ Étape 3
+✔ Étape 3 @done(24-03-11 10:44)
   ✔ Créer une branche "classes-category-author" @done(24-03-11 10:18)
-  ☐ Ajouter nouvelles variables à data.php
-  ☐ Créer une classe Category
-  ☐ Créer une classe Author
-  ☐ Modifier affichage templates grâce aux deux nouvelles classes
-  ☐ Vérifier fonctionnement site avec nouvelles classes
-  ☐ Ajouter et commiter
-  ☐ Revenir sur la branche master et fusionner la branche
+  ✔ Ajouter nouvelles variables à data.php @done(24-03-11 10:44)
+  ✔ Créer une classe Category @done(24-03-11 10:44)
+  ✔ Créer une classe Author @done(24-03-11 10:44)
+  ✔ Modifier affichage templates grâce aux deux nouvelles classes @done(24-03-11 10:44)
+  ✔ Vérifier fonctionnement site avec nouvelles classes @done(24-03-11 10:44)
+  ✔ Ajouter et commiter @done(24-03-11 10:44)
+  ✔ Revenir sur la branche master et fusionner la branche @done(24-03-11 10:44)
 
 ☐ Étape 4
-  ☐ Créer une branche "page-category"
+  ✔ Créer une branche "page-category" @done(24-03-11 11:02)
   ☐ Dans le template category.tpl.php, afficher le nom de la catégorie dans un <h1>
   ☐ Récupérer obj Category à partir de son id
   ☐ Afficher la liste de tous les articles associés

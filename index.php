@@ -75,10 +75,12 @@ if ($pageToDisplay === 'home') {
     // ------------------
     // Page Auteur
     // ------------------
+    require __DIR__ . '/inc/data.php';
 } else if ($pageToDisplay === 'category') {
     // ------------------
     // Page Catégorie
     // ------------------
+    require __DIR__ . '/inc/data.php';
 }
 
 // ===========================================================
