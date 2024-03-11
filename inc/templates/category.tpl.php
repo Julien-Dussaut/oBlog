@@ -3,8 +3,8 @@
     $articlesByCategorie = [];
 
     foreach($dataArticlesList as $index => $value) {
-      
-      if($value->category === $dataCategoriesList[$_GET['id']]->name) {
+      // $object->property(object)
+      if($value->category->name === $dataCategoriesList[$_GET['id']]->name) {
         $articlesByCategorie[$index] = $value;
       }
     }
@@ -18,8 +18,8 @@
         <div class="card-body">
             <h2 class="card-title"><a href="index.php?page=article&id=<?= $index; ?>"><?= $articleToDisplay->title ?></a></h2>
             <p class="infos">
-            Posté par <a href="#" class="card-link"><?= $articleToDisplay->author ?></a> le <time datetime="<?= $articleToDisplay->date ?>"><?= $articleToDisplay->getDateFr() ?></time> dans <a href="index.php?page=category&id=<?= $_GET['id']; ?>"
-                class="card-link">#<?= $articleToDisplay->category ?></a>
+            Posté par <a href="index.php?page=author&id=<?= $articleToDisplay->author->id ?>" class="card-link"><?= $articleToDisplay->author->name ?></a> le <time datetime="<?= $articleToDisplay->date ?>"><?= $articleToDisplay->getDateFr() ?></time> dans <a href="index.php?page=category&id=<?= $_GET['id']; ?>"
+                class="card-link">#<?= $articleToDisplay->category->name ?></a>
             </p>
             <p class="card-text">
                 <?= $articleToDisplay->content ?>

@@ -25,24 +25,30 @@
   ✔ Ajouter et commiter @done(24-03-11 10:44)
   ✔ Revenir sur la branche master et fusionner la branche @done(24-03-11 10:44)
 
-☐ Étape 4
+✔ Étape 4 @done(24-03-11 13:17)
   ✔ Créer une branche "page-category" @done(24-03-11 11:02)
   ✔ Dans le template category.tpl.php, afficher le nom de la catégorie dans un <h1> @done(24-03-11 11:20)
   ✔ Récupérer obj Category à partir de son id @done(24-03-11 11:20)
-  ☐ Afficher la liste de tous les articles associés
-  ☐ Récupérer tableau Article
-  ☐ Modifier templates pour afficher les données 
-  ☐ Vérifier fonctionnement site
-  ☐ Ajouter et commiter
-  ☐ Revenir sur la branche master et fusionner la branche
+  ✔ Afficher la liste de tous les articles associés @done(24-03-11 13:17)
+  ✔ Récupérer tableau Article @done(24-03-11 13:17)
+  ✔ Modifier templates pour afficher les données @done(24-03-11 13:17)
+  ✔ Vérifier fonctionnement site @done(24-03-11 13:17)
+  ✔ Ajouter et commiter @done(24-03-11 13:17)
+  ✔ Revenir sur la branche master et fusionner la branche @done(24-03-11 13:17)
 
-☐ Étape 5
+✔ Étape 5 @done(24-03-11 13:18)
   ✔ Créer une branche "page-author" @done(24-03-11 11:20)
   ✔ Dans le template author.tpl.php, afficher le nom de l'auteur dans un <h1> @done(24-03-11 11:20)
   ✔ Récupérer obj Author à partir de son id @done(24-03-11 11:20)
-  ☐ Afficher la liste de tous les articles associés
-  ☐ Récupérer tableau Article
-  ☐ Modifier templates pour afficher les données 
-  ☐ Vérifier fonctionnement site
-  ☐ Ajouter et commiter
-  ☐ Revenir sur la branche master et fusionner la branche
+  ✔ Afficher la liste de tous les articles associés @done(24-03-11 13:18)
+  ✔ Récupérer tableau Article @done(24-03-11 13:18)
+  ✔ Modifier templates pour afficher les données @done(24-03-11 13:18)
+  ✔ Vérifier fonctionnement site @done(24-03-11 13:18)
+  ✔ Ajouter et commiter @done(24-03-11 13:18)
+  ✔ Revenir sur la branche master et fusionner la branche @done(24-03-11 13:18)
+
+☐ Bonus
+  ☐ 
+  ☐ 
+  ☐ 
+  ☐ 

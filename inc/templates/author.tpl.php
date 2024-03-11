@@ -7,7 +7,7 @@ if(isset($_GET['id']) && !empty($_GET['id'])) {
     //On boucle sur le tableau contenant TOUS les articles 
     foreach($dataArticlesList as $index => $value) {
       //On compare le nom de l'auteur de l'article courant (stocké dans $value) avec le nom de l'auteur choisit et récupéré grâce à $dataAuthorsList[$_GET['id']]->name
-      if($value->author === $dataAuthorsList[$_GET['id']]->name) {
+      if($value->author->name === $dataAuthorsList[$_GET['id']]->name) {
         //Si c'est le même nom, on ajoute l'article à la fin du tableau créé en ligne 5
         $articlesByAuthor[$index] = $value;
       }
@@ -28,8 +28,8 @@ foreach($articlesByAuthor as $index => $articleToDisplay):
         <div class="card-body">
             <h2 class="card-title"><a href="index.php?page=article&id=<?= $index; ?>"><?= $articleToDisplay->title ?></a></h2>
             <p class="infos">
-            Posté par <a href="#" class="card-link"><?= $articleToDisplay->author ?></a> le <time datetime="<?= $articleToDisplay->date ?>"><?= $articleToDisplay->getDateFr() ?></time> dans <a href="#"
-                class="card-link">#<?= $articleToDisplay->category ?></a>
+            Posté par <a href="index.php?page=author&id=<?= $articleToDisplay->author->id ?>" class="card-link"><?= $articleToDisplay->author->name ?></a> le <time datetime="<?= $articleToDisplay->date ?>"><?= $articleToDisplay->getDateFr() ?></time> dans <a href="index.php?page=category&id=<?= $articleToDisplay->category->id ?>"
+                class="card-link">#<?= $articleToDisplay->category->name ?></a>
             </p>
             <p class="card-text">
                 <?= $articleToDisplay->content ?>

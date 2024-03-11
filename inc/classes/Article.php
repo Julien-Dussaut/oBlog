@@ -14,7 +14,8 @@ class Article
         $this->content = $content;
         $this->author = $author;
         $this->date = $date;
-        $this->category = $category;
+        $this->category = $category; 
+        // $this->category = new Category(mavidedev, 1);
     }
 
     public function getDateFr()

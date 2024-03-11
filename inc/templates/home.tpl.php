@@ -7,8 +7,8 @@
                 <?= $currentArticle->content ?>
             </p>
             <p class="infos">
-              Posté par <a href="#" class="card-link"><?= $currentArticle->author ?></a> le <time datetime="<?= $currentArticle->date ?>"><?= $currentArticle->getDateFr() ?></time> dans <a href="#"
-                class="card-link">#<?= $currentArticle->category ?></a>
+              Posté par <a href="index.php?page=author&id=<?= $currentArticle->author->id; ?>" class="card-link"><?= $currentArticle->author->name; ?></a> le <time datetime="<?= $currentArticle->date ?>"><?= $currentArticle->getDateFr() ?></time> dans <a href="index.php?page=category&id=<?= $currentArticle->category->id; ?>"
+                class="card-link">#<?= $currentArticle->category->name; ?></a>
             </p>
           </div>
         </article>
