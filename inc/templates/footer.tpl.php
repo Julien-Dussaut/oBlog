@@ -15,19 +15,27 @@
         <div class="card">
           <h3 class="card-header">Catégories</h3>
           <ul class="list-group list-group-flush">
-            <li class="list-group-item"><a href="#">Catégorie à dynamiser</a></li>
-            <li class="list-group-item"><a href="#">Catégorie à dynamiser</a></li>
-            <li class="list-group-item"><a href="#">Catégorie à dynamiser</a></li>
+<?php
+            foreach($dataCategoriesList as $index => $value):
+?>
+            <li class="list-group-item"><a href="index.php?page=category&id=<?= $index; ?>"><?= $value; ?></a></li>
+<?php
+            endforeach;
+?>
           </ul>
         </div>
 
         <!-- Auteurs: https://getbootstrap.com/docs/4.1/components/card/#list-groups -->
-        <div class="card">
+        <div class="card"></div>
           <h3 class="card-header">Auteurs</h3>
           <ul class="list-group list-group-flush">
-            <li class="list-group-item"><a href="#">Auteur à dynamiser</a></li>
-            <li class="list-group-item"><a href="#">Auteur à dynamiser</a></li>
-            <li class="list-group-item"><a href="#">Auteur à dynamiser</a></li>
+<?php
+            foreach($dataAuthorsList as $index => $value):    
+?>
+            <li class="list-group-item"><a href="index.php?page=author&id=<?= $index; ?>"><?= $value; ?></a></li>
+<?php
+            endforeach;
+?>
           </ul>
         </div>
 

@@ -1,0 +1,48 @@
+✔ Étape 1 @done(24-03-11 10:11)
+  ✔ Créer branche dynamiser @done(24-03-11 09:49)
+  ✔ Récupérer catégories @done(24-03-11 10:03)
+  ✔ Boucler et afficher les catégories @done(24-03-11 10:03)
+  ✔ Récupérer auteurs @done(24-03-11 10:11)
+  ✔ Boucler et afficher les auteurs @done(24-03-11 10:11)
+  ✔ Ajouter et commiter @done(24-03-11 10:11)
+  ✔ Revenir sur la branche master et fusionner la branche @done(24-03-11 10:11)
+
+
+✔ Étape 2 @done(24-03-11 10:11)
+  ✔ Créer une branche "liens" @done(24-03-11 10:11)
+  ✔ Définir le lien vers chaque page catégorie @done(24-03-11 10:12)
+  ✔ Définir le lien vers chaque page auteur @done(24-03-11 10:12)
+  ✔ Ajouter et commiter @done(24-03-11 10:12)
+  ✔ Revenir sur la branche master et fusionner la branche @done(24-03-11 10:12)
+
+☐ Étape 3
+  ☐ Créer une branche "classes-category-author"
+  ☐ Ajouter nouvelles variables à data.php
+  ☐ Créer une classe Category
+  ☐ Créer une classe Author
+  ☐ Modifier affichage templates grâce aux deux nouvelles classes
+  ☐ Vérifier fonctionnement site avec nouvelles classes
+  ☐ Ajouter et commiter
+  ☐ Revenir sur la branche master et fusionner la branche
+
+☐ Étape 4
+  ☐ Créer une branche "page-category"
+  ☐ Dans le template category.tpl.php, afficher le nom de la catégorie dans un <h1>
+  ☐ Récupérer obj Category à partir de son id
+  ☐ Afficher la liste de tous les articles associés
+  ☐ Récupérer tableau Article
+  ☐ Modifier templates pour afficher les données 
+  ☐ Vérifier fonctionnement site
+  ☐ Ajouter et commiter
+  ☐ Revenir sur la branche master et fusionner la branche
+
+☐ Étape 5
+  ☐ Créer une branche "page-author"
+  ☐ Dans le template author.tpl.php, afficher le nom de l'auteur dans un <h1>
+  ☐ Récupérer obj Author à partir de son id
+  ☐ Afficher la liste de tous les articles associés
+  ☐ Récupérer tableau Article
+  ☐ Modifier templates pour afficher les données 
+  ☐ Vérifier fonctionnement site
+  ☐ Ajouter et commiter
+  ☐ Revenir sur la branche master et fusionner la branche
