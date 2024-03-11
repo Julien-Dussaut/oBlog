@@ -27,8 +27,8 @@
 
 ☐ Étape 4
   ✔ Créer une branche "page-category" @done(24-03-11 11:02)
-  ☐ Dans le template category.tpl.php, afficher le nom de la catégorie dans un <h1>
-  ☐ Récupérer obj Category à partir de son id
+  ✔ Dans le template category.tpl.php, afficher le nom de la catégorie dans un <h1> @done(24-03-11 11:20)
+  ✔ Récupérer obj Category à partir de son id @done(24-03-11 11:20)
   ☐ Afficher la liste de tous les articles associés
   ☐ Récupérer tableau Article
   ☐ Modifier templates pour afficher les données 
@@ -37,9 +37,9 @@
   ☐ Revenir sur la branche master et fusionner la branche
 
 ☐ Étape 5
-  ☐ Créer une branche "page-author"
-  ☐ Dans le template author.tpl.php, afficher le nom de l'auteur dans un <h1>
-  ☐ Récupérer obj Author à partir de son id
+  ✔ Créer une branche "page-author" @done(24-03-11 11:20)
+  ✔ Dans le template author.tpl.php, afficher le nom de l'auteur dans un <h1> @done(24-03-11 11:20)
+  ✔ Récupérer obj Author à partir de son id @done(24-03-11 11:20)
   ☐ Afficher la liste de tous les articles associés
   ☐ Récupérer tableau Article
   ☐ Modifier templates pour afficher les données 
